@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+.container{
+  min-height: 100vh;
+  display: gird;
+  place-items: center;
+  padding: 60px;
+  background: url(https://source.unsplash.com/random) no-repeat ;
+  background-size: cover;
+  background-position: center;
+}
+.content{
+  text-align: center;
+}
+h3{
+  font-size: 40px;
+  color: #fff;
+  padding: 5px 0;
+}
+p{
+  font-size: 25px;
+  color: #fff;
+  padding: 5px 0;
+}
+button{
+  height: 50px;
+  width: 200px;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(195, 195, 233);
+  transition: .75s ease-in-out all;
+  width: 210px;
+}
